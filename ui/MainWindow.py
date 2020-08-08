@@ -20,7 +20,7 @@ class mainWindow(QWidget):
         """
         self.setWindowTitle('PyNetworks By CHIBANI IMAD')
         scriptDir = os.path.dirname(os.path.realpath(__file__))
-        self.setWindowIcon(QIcon(scriptDir + os.path.sep + '../optic.jpg'))
+        self.setWindowIcon(QIcon(scriptDir + os.path.sep + '../ressources/optic.jpg'))
         #self.setWindowIcon(QIcon('./ressources/Circet.jpg'))
 
         self.title_bar = TitleWindow()
